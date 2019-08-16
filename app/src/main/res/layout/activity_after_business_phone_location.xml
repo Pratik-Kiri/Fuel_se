@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".After_business_phone_location"
+    android:background="@drawable/back_3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="30dp"
+        android:text="New Registration"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="-6dp"
+        android:maxHeight="40dp"
+        android:minHeight="40dp"
+        android:progress="82" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/busilocate"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="90dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="#c0c0c0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.458"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.255" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address Line 1"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="26dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Address Line 1"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address Line 2"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Address Line 2"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address Line 3"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Address Line 3"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter City"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter State"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pincode"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter Pincode"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="18dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="14dp"/>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:background="@drawable/textbox_design"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="8dp"
+                android:hint="India"
+                android:textCursorDrawable="@color/colorCursor"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                android:inputType="none"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/button_shape1"
+                android:text="Next"
+                android:textSize="18sp"
+                android:id="@+id/next101"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+            
+
+
+
+
+
+
