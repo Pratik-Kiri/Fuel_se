@@ -1,2 +1,2 @@
 # Fuel_se
-Demo of designing in Android, implemented basic designing components of Android.
+Frontend design for Android application "Fuel_se", implemented different designing components of Android.
